@@ -1,0 +1,27 @@
+Setting up IPN within your Paypal Account
+To set up IPN:
+1. Log in to your Business or Premier PayPal1 account
+2. Go to the `Profile’ subtab
+3. Click on the `Instant Payment Notification Preferences’ link in the `Selling
+Preferences’ column
+4. Click Edit
+5. Check the box and enter the URL at which you would like to receive your IPN Notifications
+6. Click Save
+
+NOTE: If you have a Personal PayPal account you cannot set-up IPN from your Profile. Instead, Log in to your account and go to the `Sell’ tab. Click on the `Technical Overview’ link in the left-hand menu. On the
+Technical Overview page, click on the `Start using IPN’ link. You will be taken to your Profile IPN page and may then follow steps 4-6 above.
+ 
+Password and Login are demo. Copy all the files into Inetpub and register all the Dlls in DLL folder.
+
+IN BARCODETICKET, you need to go to main page and key in yout URL as in step 5 under "Change PaypalIPN path". 
+
+You will need to add your paypal email account under "Edit for Paypal Payment Email" 
+
+Remember to register all your DLLs and this version is only limited to demo tickets. For more or 
+unlimited version please contact us info@barcodeticket.com
+
+In addition, this version runs on Access database and our 1st generation random code generator
+which is tested to 7-8 concurrent users.
+
+
+Updated. PaypalIPN.asp 25/05/03
